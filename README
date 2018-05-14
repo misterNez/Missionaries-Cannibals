@@ -1,0 +1,32 @@
+Author: Nick Nesbit
+Professor: Mark Hauschild
+Date: 2/15/2018
+
+
+Description:
+
+	Artificial Intelligence: CS 4300
+	Project #1: Missionaries and Cannibals
+
+	Three missionaries and three cannibals are on one side of a river, along with a boat that can
+	hold one or two people. Find a way to get everyone to the other side without ever leaving a
+	group of missionaries in one place outnumbered by the cannibals in that place.
+	
+Solution Method:
+
+	The program implements and iterative deepening depth first search algorithm to generate a goal path.
+	A state is represented with a three-element integer array.
+	The path from goal state to start state is stored in a stack of integer pointers.
+	
+Environment:
+
+	Developed using Eclipse IDE.
+	See Makefile for compilation details.
+
+Files:
+
+	miss_cann.cpp:		Main driver file.
+	
+	tree.h: 			Declares structure for the Tree class.
+	
+	tree.cpp: 			Defines methods for the Tree class.
